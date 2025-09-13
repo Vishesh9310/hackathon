@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  list-style: none;
+}
+
+.note-items {
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note-items:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.note-items img {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.ctH {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 🎨 Different soft colors for each box */
+.note-items:nth-child(1) { background-color: #f8d7da; } /* light pink */
+.note-items:nth-child(2) { background-color: #d1ecf1; } /* light blue */
+.note-items:nth-child(3) { background-color: #d4edda; } /* light green */
+.note-items:nth-child(4) { background-color: #fff3cd; } /* light yellow */
+.note-items:nth-child(5) { background-color: #e2e3e5; } /* light grey */
+.note-items:nth-child(6) { background-color: #e2d9f3; } /* light purple */
+.note-items:nth-child(7) { background-color: #fde2e4; } /* light coral */

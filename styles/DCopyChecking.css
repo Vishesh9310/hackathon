@@ -1,0 +1,94 @@
+* {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.main-checking{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* ---------- Card ---------- */
+.card {
+    width: 100%;
+    max-width: 700px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+/* ---------- Form ---------- */
+form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+/* ---------- File Upload ---------- */
+.file-upload {
+    padding: 15px;
+    border: 2px dashed #5dade2;
+    border-radius: 12px;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+.file-upload input {
+    display: none;
+}
+
+/* ---------- Button ---------- */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: #2980b9;
+}
+
+/* ---------- Result Box ---------- */
+.result-box {
+    display: none;
+    padding: 20px;
+    border-radius: 15px;
+    background: #f8fbff;
+    border: 1px solid #dbe9f5;
+    color: #2c3e50;
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.05);
+}

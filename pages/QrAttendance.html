@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Fees Structure</title>
+  <link rel="stylesheet" href="../styles/css.css">
+  <link rel="stylesheet" href="../styles/QrAttendance.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="nav">
+        <li class="heading" style="font-size: 30px;">Campus Solution</li>
+        <ul class="nav">
+            <a href="AboutUs.html" class="nav-item">About Us</a>
+            <a href="ContactUs.html" class="nav-item">Contact Us</a>
+        </ul>
+    </nav>
+  <div class="container">
+    <header>
+      <h1>College Fees Structure</h1>
+      <p>Scan QR for instant attendance (stored without database)</p>
+    </header>
+
+    <div class="qr-box">
+      <h3>📷 Scan QR for Attendance</h3>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=CollegeAttendance" alt="QR Code">
+      <p class="note">Attendance will be saved temporarily without database.</p>
+    </div>
+
+    <div class="card">
+      <h2>💰 Fees Breakdown</h2>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Amount (₹)</th>
+        </tr>
+        <tr>
+          <td>Tuition Fee</td>
+          <td>25,000</td>
+        </tr>
+        <tr>
+          <td>Library Fee</td>
+          <td>2,000</td>
+        </tr>
+        <tr>
+          <td>Examination Fee</td>
+          <td>1,500</td>
+        </tr>
+        <tr>
+          <td>Sports & Activities</td>
+          <td>1,000</td>
+        </tr>
+        <tr>
+          <td class="highlight">Total</td>
+          <td class="highlight">29,500</td>
+        </tr>
+      </table>
+      <p class="note">* Category wise breakdown of college fees for current semester.</p>
+    </div>
+  </div>
+  <!-- footer -->
+    <footer class="footer">
+        <div class="footer-section">
+            <h2 class="logo heading">LogoName</h2>
+            <p>Your one stop solution for learning & growth.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3 class="heading">Our Developers</h3>
+            <ul>
+                <li>Pallavi Kumari</li>
+                <li>Neha Kumari</li>
+                <li>Bushara</li>
+                <li>Deepak</li>
+                <li>Vishesh</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3 class="heading">Other Links</h3>
+            <ul>
+                <li><a href="mailto:vk866797@gmail.com">vk866797@gmail.com</a></li>
+                <li><a href="mailto:nehakumarink1730@gmail.com">nehakumarink1730@gmail.com</a></li>
+                <li>Contact: <a href="tel:9310365061">9310365061</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3 class="heading">Social Media</h3>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <p>© 2025 LogoName. All rights reserved.</p>
+    </div>
+
+    <script src="../scripts/qrAttendance.js"></script>
+</body>
+</html>
