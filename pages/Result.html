@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Result</title>
+    <link rel="stylesheet" href="../styles/css.css">
+    <link rel="stylesheet" href="../styles/Result.css">
 </head>
+
 <body>
     <!-- navbar -->
     <nav class="nav">
@@ -14,7 +18,36 @@
             <a href="ContactUs.html" class="nav-item">Contact Us</a>
         </ul>
     </nav>
-    result
+    <div class="container">
+        <h2>Student Result Portal</h2>
+        <form id="resultForm">
+            <label for="collegeId">College ID:</label>
+            <input type="text" id="collegeId" required>
+
+            <label for="stdName">Student Name:</label>
+            <input type="text" id="stdName" required>
+
+            <label for="course">Course:</label>
+            <select id="course" required>
+                <option value="">--Select Course--</option>
+                <option value="BCA">BCA</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+            </select>
+
+            <label for="semester">Semester:</label>
+            <select id="semester" required>
+                <option value="">--Select Semester--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <button type="submit">Get Result</button>
+        </form>
+
+        <div id="result" class="result-box" style="display:none;"></div>
+    </div>
     <!-- footer -->
     <footer class="footer">
         <div class="footer-section">
@@ -55,5 +88,6 @@
     <div class="footer-bottom">
         <p>© 2025 LogoName. All rights reserved.</p>
     </div>
+    <script src="../scripts/Result.js"></script>
 </body>
 </html>

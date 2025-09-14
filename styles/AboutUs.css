@@ -1,0 +1,60 @@
+/* About Us Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9fcff;
+}
+
+.about-text {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 17px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Mission & Vision */
+.mission-vision {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.mv-card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 12px;
+    color: #222;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section */
+.team {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9fcff;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.member-card {
+    background: #fff;
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--card-text);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
